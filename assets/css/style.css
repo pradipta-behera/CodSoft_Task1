@@ -9,9 +9,10 @@ html {
     font-family: sans-serif;
     height: 100vh;
     width: 100wh;
-    background: #F8F0E5;
+    background: #053B50;
     scroll-behavior: smooth;
     overflow-x: hidden;
+
 }
 
 a {
@@ -22,16 +23,40 @@ li {
     list-style: none;
 }
 
+.page {
+    width: 100vw;
+    height: 100vh;
+}
+
+.page1 {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.page2 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.page3 {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: white;
+    background-color: #176B87;
+
 }
 
 .navbar a {
-    color: black;
+    color: #EEEEEE;
 }
 
 .logo {
@@ -47,7 +72,7 @@ li {
 }
 
 .links a:hover {
-    color: pink;
+    color: #93B1A6;
 }
 
 .sec {
@@ -56,11 +81,11 @@ li {
 
 .img {
     padding-top: 3rem;
-    padding-left: 40%;
+    padding-left: 36%;
 }
 
 img {
-    width: 300px;
+    width: 400px;
     height: 300px;
     border-radius: 8px;
     box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.8);
@@ -81,12 +106,14 @@ img {
     padding-left: 39%;
     font-size: 32px;
     font-weight: 600;
+    color: #EEEEEE;
 }
 
 .content h2 {
     padding-left: 40%;
     font-size: 18px;
     padding-top: 10px;
+    color: #EEEEEE;
 }
 
 .content p {
@@ -94,12 +121,14 @@ img {
     padding-right: 27%;
     padding-top: 10px;
     text-align: center;
+    color: #EEEEEE;
 
 }
 
 .btn_container {
     text-align: center;
     padding-top: 1rem;
+
 }
 
 .btn_container .btn {
@@ -112,7 +141,7 @@ img {
 
 .btn_container .btn {
     font-size: 20px;
-    color: black;
+    color: #CEDEBD;
 }
 
 .btn a:hover {
@@ -120,32 +149,33 @@ img {
     color: #fff;
 }
 
-/* .btn a:hover{
-    color: white;
-} */
-.about {
+
+.about_container {
     width: 100%;
     height: 100%;
-    display: block;
-    padding-top: 8rem;
+    position: relative;
 }
 
-.about h1 {
+.about_container h1 {
     font-size: 32px;
     font-weight: 600;
-    padding-right: rem;
     padding-left: 6rem;
+    color: #CEDEBD;
 }
 
 .heading {
-    padding-top: 2rem;
-    padding-left: 6rem;
+    position: absolute;
+    top: 60px;
+    left: 0;
 }
 
 .heading h3 {
+    padding-top: 1rem;
     padding-right: 40rem;
+    padding-left: 6rem;
     font-size: 19px;
     font-weight: 700;
+    color: #EEEEEE;
 }
 
 .heading p {
@@ -154,23 +184,25 @@ img {
     line-height: 1.;
     padding-right: 40rem;
     font-weight: 500;
+    padding-left: 6rem;
+    color: #EEEEEE;
 }
 
 .image_container {
-    float: right;
-    width: 30%;
-    padding-bottom: 50px;
-
+    position: absolute;
+    right: 0;
+    padding-right: 6rem;
+    padding-top: 3rem;
 }
 
 .image_container .image {
-    width: 400px;
-    height: auto;
+    width: fit-content;
 }
 
 .btn_container2 {
-    padding-left: 6rem;
-    padding-top: 2rem;
+    position: relative;
+    padding-left: 8rem;
+    padding-top: 3rem;
 }
 
 .btn_container2 .btn2 {
@@ -179,6 +211,7 @@ img {
     border-radius: 10px;
     padding: 12px;
     box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.8);
+
 }
 
 .btn_container2 .btn2 {
@@ -189,4 +222,166 @@ img {
 .btn2 a:hover {
     background-color: #000;
     color: #fff;
+}
+
+.social {
+    display: inline;
+    width: 10px;
+    height: 10px;
+    top: 8rem;
+    padding-left: 5.1rem;
+}
+
+.fa-brands {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fa-twitter-square {
+    padding-left: 2vw;
+}
+
+.fa-instagram-square {
+    padding-left: 2vw;
+}
+
+.fa-facebook-square {
+    padding-left: 2vw;
+}
+
+.features {
+    padding-top: 28rem;
+    color: #EEEEEE;
+}
+
+.heading2 {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 12rem;
+
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+
+
+
+}
+
+.category .box {
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.category .box .i {
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1cm;
+
+
+}
+
+.box p {
+    padding-top: 1rem;
+}
+
+.product_container {
+    display: flex;
+    color: #EEEEEE;
+}
+.heading3 h1{
+    color: #CEDEBD;
+    text-align: center;
+    
+}
+.product_container .product{
+    margin-bottom: -4rem ;
+    justify-content: space-between;
+    padding-left: 2.5rem; 
+    padding-top: 2.5rem;
+    padding-right: 2rem;
+}
+.product img{
+    height: 300px;
+    width: 300px;
+}
+.product h3 {
+    text-align: center;
+}
+.product p{
+    text-align: center;
+}
+
+.review_container p {
+    color: #EEEEEE;
+    padding-top: 1rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+
+.review_container {
+    color: #CEDEBD;
+    margin: 40px;
+    overflow: hidden;
+    padding: 0 20px;
+    text-align: center;
+
+}
+
+.review_customers {
+    display: flex;
+    color: #EEEEEE;
+    padding-top: 2rem;
+    bottom: 0%;
+
+}
+/* .customer{
+    flex: 33%;
+    box-sizing: border-box;
+    padding: 15px;
+} */
+.review_customers .customer{
+    margin-bottom: -4rem ;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #176B87;
+    padding-left: 1rem;
+    
+
+}
+.customer img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+
+.user_review {
+    color: #EEEEEE;
+    padding-top: 1rem;
+}
+
+.fa-quote-left {
+    padding-top: 1rem;
+}
+
+.user_review h3 {
+    padding-top: 2rem;
 }
