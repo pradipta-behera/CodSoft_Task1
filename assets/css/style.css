@@ -24,7 +24,7 @@ html, body {
 }
 
 ::-webkit-scrollbar-track {
-    background: #6f89c6;
+    background: #fff;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -164,8 +164,13 @@ nav {
 }
 
 .header__image {
+    
     position: relative;
     padding-right: 5rem;
+}
+.header__image img{
+    border-radius: 50%;
+    box-shadow: 30px 20px 30px rgba(0, 0, 0, 0.1);
 }
 
 .header__socials {
@@ -219,19 +224,6 @@ nav {
 .work__card p {
     line-height: 1.5rem;
     color: var(--text-light);
-}
-
-.deals__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-}
-
-.deals__header__content .section__header {
-    max-width: 450px;
-    margin-bottom: 1rem;
-    text-align: center;
 }
 
 .deals__header__content p {
