@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
 :root {
-    --primary-color: #6f0cc6;
+    --primary-color: #747564;
     --text-dark: #ffffff;
     --text-light: #64748b;
     --black: #000000;
@@ -37,7 +37,7 @@ html, body {
 }
 
 body {
-    background: #041a4d;
+    background: #272727;
 }
 
 .section__container {
@@ -63,7 +63,7 @@ body {
     background-color: var(--primary-color);
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 1.5px 10px 30px #6f0cc6;
+    box-shadow: 1.5px 10px 30px #000;
 }
 
 .btn:hover {
@@ -250,6 +250,8 @@ nav {
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    width: 300px;
+    height: 200px;
 }
 
 .deals__card img {
@@ -283,21 +285,6 @@ nav {
 
 .featured__image {
     position: relative;
-}
-
-.featured__image img:nth-child(1) {
-    max-width: 500px;
-    margin: auto;
-    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-.featured__image img:nth-child(2) {
-    max-width: 400px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .featured__content {
@@ -361,8 +348,10 @@ nav {
 }
 
 .business__member img {
-    max-width: 40px;
-    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .business__member__details h4 {
