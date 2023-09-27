@@ -364,7 +364,7 @@ nav {
     border-radius: 10px;
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: #333131;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -374,6 +374,8 @@ nav {
     outline: none;
     border: none;
     font-size: 1rem;
+    color: #fff;
+    background-color: #333131;
 }
 
 .footer__container {
