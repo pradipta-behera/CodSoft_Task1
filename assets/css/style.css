@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
 
 :root {
     --primary-color: #747564;
@@ -60,15 +60,15 @@ body {
     font-size: 1rem;
     white-space: nowrap;
     color: var(--black);
-    background-color: var(--primary-color);
+    background-color: #fff;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 1.5px 10px 30px #000;
 }
 
 .btn:hover {
-    color: var(--primary-color);
-    background-color: var(--black);
+    color: #fff;
+    background-color: #000;
     transition: 0.6s;
 }
 
@@ -82,39 +82,35 @@ a {
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-.page {
-    width: 100vw;
-    height: 100vh;
+header {
+    position: relative;
 }
 
-.page1 {
-    width: 100vw;
-    height: 100vh;
-
+.double_img {
+    position: absolute;
+    top: 0;
+    right: -10rem;
+    margin-top: 8rem;
+    height: auto;
+    width: calc(70% - 20rem);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -1;
 }
 
-.page2 {
-    width: 100vw;
-    height: 100vh;
-}
-
-.page3 {
-    width: 100vw;
-    height: 100vh;
-
-}
-
-
-.navbar {
+nav {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 2rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    background-color: #176B87;
-
+    
 }
 
 .nav__logo a {
@@ -287,13 +283,15 @@ body {
     padding: 2rem 0;
 }
 
-.btn_container2 .btn2 {
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 12px;
-    box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.8);
+.featured__content .btn {
+    margin-top: 10px;
+}
 
+.featured__content h4 {
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-dark);
 }
 
 .featured__content p {
@@ -367,7 +365,7 @@ body {
     border-radius: 10px;
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: #333131;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -377,6 +375,8 @@ body {
     outline: none;
     border: none;
     font-size: 1rem;
+    color: #fff;
+    background-color: #333131;
 }
 
 .footer__container {
